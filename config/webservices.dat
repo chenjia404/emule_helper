@@ -1,0 +1,30 @@
+#########################################
+# Webservices Configuration File 
+# input one service per line 
+# 
+# Format: Name,URL
+#
+# Placeholders:
+# #filename 	-> name of the file
+# #hashid	-> hashid of the file
+# #filesize	-> size of the file
+#
+# Example: 
+# eMule Homepage,http://www.emule-project.net
+# Testservice,http://www.webservice.com/search?p=ed2k:#filesize:#hashid
+#
+# Comment lines begin with # or /
+
+/eMule FAQ,http://www.emule-project.org/faq/
+
+eMule Xtreme Homepage, http://www.xtreme-mod.net
+emugle search, http://www.emugle.com/
+--,--
+eMule Support, http://www.emule-web.de/
+Server.met Download (FakeFree), http://www.server-met.de/
+Server-List (FakeFree), http://www.server-met.de/server-liste.php
+Last IP-Filter.dat, http://www.emule-mods.de/?mods=ipfilter
+Donkeyfakes,http://www.donkeyfakes.net/fakes.php?hash=#hashid&size=#filesize
+Ed2khistory Power,http://ed2kstats.power-portal.to/ed2k.php?hash=#hashid
+百度,https://www.baidu.com/s?ie=UTF-8&wd=#hashid
+分享到微博,http://service.weibo.com/share/share.php?url=http%3A%2F%2Fopen.weibo.com%2Fsharebutton&type=button&ralateUid=1704750133&language=zh_cn&title=%E5%88%86%E4%BA%ABed2k%E4%B8%8B%E8%BD%BD%E8%B5%84%E6%BA%90%20%EF%BC%9Aed2k%3A%2F%2F%7Cfile%7C#filename%7C#filesize%7C#hashid%7C%2F&searchPic=false&style=number
