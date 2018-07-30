@@ -4,4 +4,6 @@
 
 本项目会定期更新kad节点和服务器。
 
+手动更新kad节点文件：https://raw.githubusercontent.com/chenjia404/emule_helper/master/config/nodes.dat
+
 你可以使用本软件搜索电影、美剧、电视剧等，搜索的时候注意用空格分隔关键词，另外你可以把你想共享的文件放在『共享文件』里面。
